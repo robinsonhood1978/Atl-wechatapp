@@ -1,0 +1,192 @@
+{
+  "pages": [
+
+    {
+      "path": "pages/home",
+      "style": {
+        "navigationBarTitleText": "运过来Ship2u",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/tickets",
+      "style": {
+        "navigationBarTitleText": "问题追踪",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/tickets/details",
+      "style": {
+        "navigationBarTitleText": "问题详情"
+      }
+    },
+    {
+      "path": "pages/order",
+      "style": {
+        "navigationBarTitleText": "运单",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/packages/searchParcel",
+      "style": {
+        "navigationBarTitleText": "搜索包裹"
+      }
+    },
+    {
+      "path": "pages/packages/details",
+      "style": {
+        "navigationBarTitleText": "包裹详情"
+      }
+    },
+    {
+      "path": "pages/packages/addPackage",
+      "style": {
+        "navigationBarTitleText": "添加包裹"
+      }
+    },
+    {
+      "path": "pages/me",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/fees/feesCalc",
+      "style": {
+        "navigationBarTitleText": "费用计算器"
+      }
+    },
+    {
+      "path": "pages/fees/details",
+      "style": {
+        "navigationBarTitleText": "费用计算详情"
+      }
+    },
+    {
+      "path": "pages/weblogin",
+      "style": {
+        "navigationBarTitleText": "绑定网站账号"
+      }
+    },
+    {
+      "path": "pages/freightorders/addOrder",
+      "style": {
+        "navigationBarTitleText": "新建运单"
+      }
+    },
+    {
+      "path": "pages/freightorders/details",
+      "style": {
+        "navigationBarTitleText": "运单详情"
+      }
+    },
+    {
+      "path": "pages/common/contact",
+      "style": {
+        "navigationBarTitleText": "联系客服"
+      }
+    },
+    {
+      "path": "pages/common/payments",
+      "style": {
+        "navigationBarTitleText": "支付方式"
+      }
+    },
+    {
+      "path": "pages/common/about",
+      "style": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/common/faq",
+      "style": {
+        "navigationBarTitleText": "常见问题"
+      }
+    },
+    {
+      "path": "pages/common/onePrice",
+      "style": {
+        "navigationBarTitleText": "一口价转运"
+      }
+    },
+    {
+      "path": "pages/common/vouchers",
+      "style": {
+        "navigationBarTitleText": "卡券"
+      }
+    },
+    {
+      "path": "pages/common/keyWords",
+      "style": {
+        "navigationBarTitleText": "物流关键字"
+      }
+    },
+    {
+      "path": "pages/common/address",
+      "style": {
+        "navigationBarTitleText": "地址管理"
+      }
+    },
+    {
+      "path": "pages/common/addAddress",
+      "style": {
+        "navigationBarTitleText": "添加地址"
+      }
+    },
+    {
+      "path": "pages/common/terms",
+      "style": {
+        "navigationBarTitleText": "用户服务条款"
+      }
+    },
+    {
+      "path": "pages/test",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true,
+        "onReachBottomDistance": 50
+      }
+    }
+  ],
+  "globalStyle": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#BE1416",
+    "navigationBarTitleText": "运过来",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#BE1416",
+    "list": [
+      {
+        "pagePath": "pages/home",
+        "text": "包裹",
+        "iconPath": "static/icons/yun.png",
+        "selectedIconPath": "static/icons/yun-active.png"
+      },
+      {
+        "pagePath": "pages/order",
+        "text": "运单",
+        "iconPath": "static/icons/order.png",
+        "selectedIconPath": "static/icons/order-active.png"
+      },
+      {
+        "pagePath": "pages/fees/feesCalc",
+        "text": "费用计算",
+        "iconPath": "static/icons/calc.png",
+        "selectedIconPath": "static/icons/calc-small-active.png"
+      },
+      {
+        "pagePath": "pages/me",
+        "text": "我的",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user-active.png"
+      }
+    ]
+  }
+}
